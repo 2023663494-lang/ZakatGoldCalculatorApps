@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         if (itemId == R.id.item_share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Calculate your gold zakat with this app: [Your App Link Here]");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Calculate your gold zakat with this app: https://github.com/2023663494-lang/ZakatGoldCalculatorApps/tree/master");
             shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Zakat Gold Calculator");
             startActivity(Intent.createChooser(shareIntent, "Share App"));
             return true;

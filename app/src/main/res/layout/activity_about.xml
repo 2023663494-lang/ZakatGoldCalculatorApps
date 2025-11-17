@@ -222,7 +222,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
-                            android:text="Programme Code: ICT602"
+                            android:text="Programme Code: CSC240"
                             android:textSize="16sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -249,7 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:padding="8dp"
-                android:text="https://github.com/2023663494-lang/ZakatGoldCalculatorApps"
+                android:text="https://github.com/2023663494-lang/ZakatGoldCalculatorApps/tree/master"
                 android:textAlignment="center"
                 android:textColor="#0000FF"
                 android:textSize="16sp"
